@@ -1,4 +1,4 @@
-// Enhanced JavaScript for Asgeo Zemin Website
+﻿// Enhanced JavaScript for Asgeo Zemin Website
 // Responsive and performance optimized
 
 // Enhanced Mobile menu toggle
@@ -416,9 +416,9 @@ if (navigator.hardwareConcurrency && navigator.hardwareConcurrency < 4) {
 // Preload images for better performance
 function preloadImages() {
   const images = [
-    "Foto/slidesondaj.jpg",
-    "Foto/slidemasv.jpg",
-    "Foto/slidepress.jpg",
+    "../assets/images/slidesondaj.jpg",
+    "../assets/images/slidemasv.jpg",
+    "../assets/images/slidepress.jpg",
   ];
 
   images.forEach((src) => {

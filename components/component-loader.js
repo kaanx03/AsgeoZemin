@@ -100,14 +100,7 @@ class ComponentLoader {
 
   // Component'ların yolunu belirle (dosya yapısına göre)
   getComponentsPath() {
-    const path = window.location.pathname;
-    const depth = (path.match(/\//g) || []).length;
-
-    if (depth <= 1 || path.includes("index.html")) {
-      return "./components";
-    } else {
-      return "../components";
-    }
+    return "../components";
   }
 
   // Aktif nav link'i işaretle

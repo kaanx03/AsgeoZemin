@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bize Ulaşın - AS GEO ZEMİN</title>
-    <link rel="stylesheet" href="styles/style.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
-    <link rel="stylesheet" href="styles/navbar.css" />
-    <link rel="stylesheet" href="styles/bize_ulasin.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/footer.css" />
+    <link rel="stylesheet" href="../styles/navbar.css" />
+    <link rel="stylesheet" href="../styles/contact.css" />
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
       rel="stylesheet"
@@ -62,7 +62,7 @@
               class="contact-form"
               id="contactForm"
               method="POST"
-              action="contact-submit.php"
+              action="../contact-submit.php"
             >
               <div class="form-row">
                 <div class="form-group">
@@ -472,8 +472,8 @@
     </button>
 
     <!-- Component Loader -->
-    <script src="components/component-loader.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../components/component-loader.js"></script>
+    <script src="../js/script.js"></script>
     <script>
       // Form validation and submission with AJAX
       document
@@ -516,7 +516,7 @@
             submitBtn.disabled = true;
 
             // AJAX ile PHP'ye gönder
-            fetch("contact-submit.php", {
+            fetch("../contact-submit.php", {
               method: "POST",
               body: formData,
             })

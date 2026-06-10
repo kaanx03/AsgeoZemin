@@ -1,4 +1,4 @@
-/* styles/projelerimiz.css - Projelerimiz Sayfa Stilleri */
+﻿/* styles/projelerimiz.css - Projelerimiz Sayfa Stilleri */
 
 /* Page Header */
 .page-header {
@@ -21,7 +21,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url("../Foto/slidesondaj.jpg");
+  background-image: url("../assets/images/slidesondaj.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
